@@ -1,0 +1,15 @@
+name: StorageComputer
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A craftable storage computer block with a custom interface for managing items across a network.
+api-version: "1.21"
+commands:
+  storagecomputer:
+    description: Main command for the Storage Computer plugin.
+    usage: /storagecomputer
+    aliases: [sc]
+permissions:
+  storagecomputer.use:
+    description: Allows the player to use the storage computer.
+    default: true
